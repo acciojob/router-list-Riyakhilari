@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ItemList from "./ItemList";
 import ItemDetail from "./ItemDetail";
+
 import './../styles/App.css';
 
-const App = () => {
-  return (
+function App() {  return (
     <Router>
       <div>
         <h1>Item List</h1>
